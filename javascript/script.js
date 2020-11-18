@@ -7,6 +7,7 @@
 
 window.onload = function() {
     
+
     //Email JS
     document.getElementById('contact-form').addEventListener('submit', function(event) {
         event.preventDefault();
@@ -61,4 +62,32 @@ function myFunction() {
     $(".header-icon1").show();    
   }
 
+
+  function login()
+  {
+    $("#header").hide();
+    $("#login #header-login").show();
+    $("#login #header-login").addClass("header-login");
+    $("#login-div").fadeIn("show");
+
+    $('#home').hide();  
+    $('#footer').hide;
+    $('#contact').hide();
+    $("#signup-div").hide();
+    $("#signup #header-signup").hide();
+}
+function signup()
+  {
+    $("#header").hide();
+    $("#signup #header-signup").show();
+    $("#signup #header-signup").addClass("header-login");
+    $("#signup-div").fadeIn("show");
+    
+    $('#home').hide();  
+    $('#footer').hide;
+    $('#contact').hide();
+    $("#login-div").hide();
+    $("#login #header-login").hide();
+    
+}
 

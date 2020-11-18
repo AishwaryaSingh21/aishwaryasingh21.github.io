@@ -120,14 +120,14 @@ body
 }
 .home h1
 {
-    font-size: 3.2rem;
+    font-size: 3rem;
 }
 
 .home p
 {
     margin-top: 2rem;
     text-align: center;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
 }
 .home a {
   position: relative;
@@ -431,4 +431,45 @@ footer .icons
     }
   }
   
-
+  * LOGIN */
+  .login-text
+  {
+    margin-top:5rem;
+    margin-left:5rem;
+  }
+  .login-text h1
+  {
+    font-size: 3rem;;
+  }
+  .login-text p
+  {
+    font-size: 1.5rem;;
+  }
+  #login #header-login
+  {
+    display: none;
+  }
+  .header-login
+  {
+      margin-top: 0.5rem;
+      position: sticky!important;
+      top: 0!important;
+      width: 100%!important;
+      z-index: 100!important;
+  }
+  #login-div
+  {
+    display: none;
+  }
+  
+  
+  /* SIGNUP */
+  #signup-div
+  {
+    display: none;
+  }
+  #signup #header-signup
+  {
+    display: none;
+  }
+  
