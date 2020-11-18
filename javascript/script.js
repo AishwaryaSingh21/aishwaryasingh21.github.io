@@ -57,7 +57,6 @@ function myFunction() {
     $('#home').show();  
     $('#footer').show();
     $('#contact').show();
-
     $(".header-icon2").hide();
     $(".header-icon1").show();    
   }
@@ -65,7 +64,10 @@ function myFunction() {
 
   function login()
   {
+    $('#menu').hide();
     $("#header").hide();
+    $("#header-mobile").hide();
+
     $("#login #header-login").show();
     $("#login #header-login").addClass("header-login");
     $("#login-div").fadeIn("show");
@@ -75,14 +77,19 @@ function myFunction() {
     $('#contact').hide();
     $("#signup-div").hide();
     $("#signup #header-signup").hide();
+    
 }
 function signup()
   {
+    $('#menu').hide();
+    $("#header").hide();
+    $("#header-mobile").hide();
+    
     $("#header").hide();
     $("#signup #header-signup").show();
     $("#signup #header-signup").addClass("header-login");
     $("#signup-div").fadeIn("show");
-    
+
     $('#home').hide();  
     $('#footer').hide;
     $('#contact').hide();

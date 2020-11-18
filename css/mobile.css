@@ -460,6 +460,12 @@ footer .icons
   #login-div
   {
     display: none;
+    text-align: center;
+  }
+  .login-mobile
+  {
+    margin-top:3rem!important;
+    width:20rem!important;
   }
   
   
@@ -467,6 +473,7 @@ footer .icons
   #signup-div
   {
     display: none;
+    text-align: center;
   }
   #signup #header-signup
   {
