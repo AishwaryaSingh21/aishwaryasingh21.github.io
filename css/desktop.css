@@ -482,8 +482,9 @@ footer .icons
 /* RECOMMEND */
 .recommend
 {
-  margin-left:15rem;
-  margin-right:15rem;
+  width:60rem!important;
+  margin-left: auto!important;
+  margin-right:auto!important;
   margin-top: 7rem;
   margin-bottom: 3rem;
 }
