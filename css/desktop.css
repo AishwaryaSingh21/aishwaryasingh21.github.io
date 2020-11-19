@@ -84,6 +84,10 @@ body
     text-align: center;
     font-size: 1.3rem;
 }
+.home-image
+{
+  margin-top:80px;
+}
 
 
 .home a {
@@ -213,10 +217,14 @@ footer .social-icon
     padding: 0.5rem;;
     font-size: 3.2rem;
     background: rgba(0,0,0,.5);
-    
+    border-radius: 100%;
     color: white;
     
 }
+  
+  
+
+
 footer img
 {
     height:70px;

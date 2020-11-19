@@ -133,6 +133,13 @@ body
     text-align: center;
     font-size: 1.1rem;
 }
+.home-image img
+{
+  max-width:20rem;
+  margin-top:5rem;
+}
+
+
 .home a {
   position: relative;
   display: inline-block;
