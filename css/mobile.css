@@ -470,6 +470,8 @@ footer .icons
 #login #header-login .float-div
 {
   float:right;
+  font-size: 0.7rem!important;
+
 }
   
   #login-div
@@ -511,5 +513,6 @@ footer .icons
 #signup #header-signup .float-div
 {
   float:right;
+  font-size: 0.7rem!important;
 }
-  
+
