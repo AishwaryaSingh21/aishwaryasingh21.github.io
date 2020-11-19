@@ -252,13 +252,14 @@ footer .icons
 {
   display: none;
 }
-.header-login
+#login #header-login a
 {
-    margin-top: 0.5rem;
-    position: sticky!important;
-    top: 0!important;
-    width: 100%!important;
-    z-index: 100!important;
+  color:white;
+  display:inline-flex;
+}
+#login #header-login .float-div
+{
+  float:right;
 }
 #login-div
 {
@@ -274,6 +275,15 @@ footer .icons
 #signup #header-signup
 {
   display: none;
+}
+#signup #header-signup a
+{
+  color:white;
+  display:inline-flex;
+}
+#signup #header-signup .float-div
+{
+  float:right;
 }
 
 

@@ -85,7 +85,6 @@ function signup()
     $("#header").hide();
     $("#header-mobile").hide();
     
-    $("#header").hide();
     $("#signup #header-signup").show();
     $("#signup #header-signup").addClass("header-login");
     $("#signup-div").fadeIn("show");

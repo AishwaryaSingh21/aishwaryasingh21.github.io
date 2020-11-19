@@ -7,6 +7,10 @@
     padding-top: 2rem;
     padding-bottom:2rem;
 }
+.clear
+{
+  display:none;
+}
 
 body
 {
@@ -447,16 +451,27 @@ footer .icons
   }
   #login #header-login
   {
+    margin-top:1rem;
     display: none;
   }
-  .header-login
+  #header-login a img
   {
-      margin-top: 0.5rem;
-      position: sticky!important;
-      top: 0!important;
-      width: 100%!important;
-      z-index: 100!important;
+    
+    border-radius: 100%;
+    max-width: 3rem;
+    max-height:3rem;
   }
+  #login #header-login a
+{
+  color:white;
+  display:inline-flex!important;
+  
+}
+#login #header-login .float-div
+{
+  float:right;
+}
+  
   #login-div
   {
     display: none;
@@ -477,6 +492,24 @@ footer .icons
   }
   #signup #header-signup
   {
+    margin-top:1rem;
     display: none;
   }
+  #header-signup a img
+  {
+    
+    border-radius: 100%;
+    max-width: 3rem;
+    max-height:3rem;
+  }
+  #signup #header-signup a
+{
+  color:white;
+  display:inline-flex!important;
+  
+}
+#signup #header-signup .float-div
+{
+  float:right;
+}
   
