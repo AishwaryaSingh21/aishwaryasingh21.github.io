@@ -268,6 +268,7 @@ footer .social-icon
     font-size: 3rem;
     color: white;
     background: rgba(0,0,0,.5);
+    border-radius: 100%;
 
 }
 footer img
@@ -541,3 +542,27 @@ footer .icons
     padding:2rem;
     font-size:4rem;
 }
+
+/* RECOMMEND */
+.recommend
+{
+  width:20rem;
+  margin-top:5rem;
+  margin-bottom:5rem;
+}
+.mySlides 
+{
+  display:none;
+}
+.recommend-details
+{
+  padding-top:4rem;
+  padding-left:1rem;
+  padding-right:1rem;
+  padding-bottom: 1rem;
+  background: rgba(0,0,0,.5);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0,0,0,.6);
+
+}
+

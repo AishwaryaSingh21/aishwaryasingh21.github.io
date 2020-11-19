@@ -1,13 +1,34 @@
+//Slide Testinomials
+var slideIndex = 1;
+$(function() {
+$('#slide').show();
+});
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+
+
+
 //Email JS
 (function() {
     // https://dashboard.emailjs.com/admin/integration
     emailjs.init("user_mXdQV47fKgmgDzcJm0fT0");
 })();
 
-
 window.onload = function() {
     
-
     //Email JS
     document.getElementById('contact-form').addEventListener('submit', function(event) {
         console.log("Hello");
@@ -33,6 +54,7 @@ $(function() {
             $('#footer').hide();
             $('#contact').hide();
             $('#features').hide();
+            $('#recommend').hide();
             $(".header-icon1").hide();
             $(".header-icon2").show();
         
@@ -49,6 +71,8 @@ function myToggle()
     $('#footer').show();
     $('#contact').show();
     $('#features').show();
+    $('#recommend').show();
+
 
 
     $(".header-icon2").hide();
@@ -61,6 +85,8 @@ function myFunction() {
     $('#footer').show();
     $('#contact').show();
     $('#features').show();
+    $('#recommend').show();
+
 
     $(".header-icon2").hide();
     $(".header-icon1").show();    
@@ -82,6 +108,9 @@ function myFunction() {
     $('#contact').hide();
     $("#signup-div").hide();
     $('#features').hide();
+    $('#recommend').hide();
+
+
     $("#signup #header-signup").hide();
     
 }
@@ -100,11 +129,8 @@ function signup()
     $('#contact').hide();
     $("#login-div").hide();
     $('#features').hide();
+    $('#recommend').hide();
+
     $("#login #header-login").hide();
     
-}
-
-function home()
-{
-   
 }

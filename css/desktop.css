@@ -477,3 +477,28 @@ footer .icons
 {
   margin-left: 3rem;margin-right: 3rem;
 }
+
+
+/* RECOMMEND */
+.recommend
+{
+  margin-left:15rem;
+  margin-right:15rem;
+  margin-top: 7rem;
+  margin-bottom: 3rem;
+}
+.mySlides 
+{
+  display:none;
+}
+.recommend-details
+{
+  padding-top:4rem;
+  padding-left:4rem;
+  padding-right:4rem;
+  padding-bottom: 1rem;
+  background: rgba(0,0,0,.5);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0,0,0,.6);
+
+}
