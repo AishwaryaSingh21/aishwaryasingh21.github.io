@@ -140,6 +140,7 @@ body
 {
   max-width:20rem;
   margin-top:5rem;
+  
 }
 
 
@@ -445,11 +446,10 @@ footer .icons
     }
   }
   
-  * LOGIN */
+  /* LOGIN */
   .login-text
   {
     margin-top:5rem;
-    margin-left:5rem;
   }
   .login-text h1
   {
@@ -486,6 +486,7 @@ footer .icons
   
   #login-div
   {
+    margin-top:-5rem;
     display: none;
     text-align: center;
   }
@@ -499,9 +500,11 @@ footer .icons
   /* SIGNUP */
   #signup-div
   {
-    display: none;
+    margin-top:-5rem;
     text-align: center;
+    display: none;
   }
+  
   #signup #header-signup
   {
     margin-top:1rem;
@@ -530,7 +533,7 @@ footer .icons
 /* FEATURES */
 .features-card
 {
-    margin:1rem;
+    margin:2rem;
     background: rgba(0,0,0,.5);
     box-sizing: border-box;
     box-shadow: 0 15px 25px rgba(0,0,0,.6);

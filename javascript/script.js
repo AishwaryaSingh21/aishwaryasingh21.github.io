@@ -32,6 +32,7 @@ $(function() {
             $('#home').hide();
             $('#footer').hide();
             $('#contact').hide();
+            $('#features').hide();
             $(".header-icon1").hide();
             $(".header-icon2").show();
         
@@ -47,6 +48,8 @@ function myToggle()
     $('#home').show();
     $('#footer').show();
     $('#contact').show();
+    $('#features').show();
+
 
     $(".header-icon2").hide();
     $(".header-icon1").show();
@@ -57,6 +60,8 @@ function myFunction() {
     $('#home').show();  
     $('#footer').show();
     $('#contact').show();
+    $('#features').show();
+
     $(".header-icon2").hide();
     $(".header-icon1").show();    
   }
@@ -76,6 +81,7 @@ function myFunction() {
     $('#footer').hide;
     $('#contact').hide();
     $("#signup-div").hide();
+    $('#features').hide();
     $("#signup #header-signup").hide();
     
 }
@@ -93,6 +99,7 @@ function signup()
     $('#footer').hide;
     $('#contact').hide();
     $("#login-div").hide();
+    $('#features').hide();
     $("#login #header-login").hide();
     
 }
