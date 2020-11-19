@@ -56,11 +56,14 @@ body
 
 .header
 {
-    margin-top: 0.5rem;
+    padding-top: 1rem;
     position: sticky!important;
     top: 0!important;
     width: 100%!important;
     z-index: 100!important;
+    background: rgba(0,0,0,.5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
     
 }
 
@@ -459,3 +462,18 @@ footer .icons
     }
   }
   
+/* FEATURES */
+.features-card
+{
+    margin:3rem;
+    background: rgba(0,0,0,.5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+    padding:2rem;
+    font-size:4rem;
+}
+.features
+{
+  margin-left: 2rem;margin-right: 2rem;
+}
