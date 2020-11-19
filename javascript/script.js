@@ -10,8 +10,8 @@ window.onload = function() {
 
     //Email JS
     document.getElementById('contact-form').addEventListener('submit', function(event) {
+        console.log("Hello");
         event.preventDefault();
-        // these IDs from the previous steps
         emailjs.sendForm('default_service', 'coding_form', this)
             .then(function() {
                 console.log('SUCCESS!');
