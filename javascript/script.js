@@ -19,8 +19,6 @@ function showDivs(n) {
   x[slideIndex-1].style.display = "block";  
 }
 
-
-
 //Email JS
 (function() {
     // https://dashboard.emailjs.com/admin/integration

@@ -12,7 +12,7 @@
 
         <!-- CSS files -->
         <link rel="stylesheet" media="screen and (min-width: 1001px)" href="css/desktop_ide.css" type="text/css"/>
-        <link rel="stylesheet" media="screen and (max-width: 1000px)" href="css/mobile.css" type="text/css" />
+        <link rel="stylesheet" media="screen and (max-width: 1000px)" href="css/mobile_ide.css" type="text/css" />
 
         <!-- Icons -->
         <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
@@ -34,7 +34,7 @@
 
         <!-- HEADER DESKTOP -->
         <nav class="navbar navbar-expand-md header" id="header">
-            <a class="navbar-brand" href="#" ><img src="images/logo.png" alt=""></a>
+            <a class="navbar-brand" href="index.html" ><img src="images/logo.png" alt=""></a>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav mr-auto"></ul>
                 <ul class="navbar-nav">
@@ -56,38 +56,57 @@
             </div>
         </nav>
 
+        <!-- HEADER MOBILE -->
+        <nav class="navbar navbar-expand-md header" id="header-ide">
+            <a class="" href="index.html" >
+                <img class="" src="images/logo.png">
+            </a>
+            <a class="nav-link float-div" href="ide.html" style="border-style:solid;border-width: 0.5px">IDE</a>
+        </nav>
+
         <!-- IDE -->
         <div id='container' class="row">
-            <div class="rounded col-md-6">
+            <div class="rounded col-md-6" id="code">
                 <div class="login-box">
-                        <a href="#">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                            CODE
-                        </a>
+                    <a href="#" onclick="code()" class="cbt">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        CODE
+                    </a>
+                    <a href="#" onclick="output()" class="obt">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        OUTPUT
+                    </a>
                 </div>  
                 <div id="editor" class="shadow-style">
                 </div>
             </div>
-            <div class="rounded col-md-6">
+
+            <div class="rounded col-md-6" id="output">
                 <div class="login-box">
-                        <a href="#">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                            OUTPUT
-                        </a>
+                    <a href="#" onclick="code()" class="cbt">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        CODE
+                    </a>
+                    <a href="#" onclick="output()" class="obt">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        OUTPUT
+                    </a>
                 </div> 
                 <iframe id='iframe' frameBorder="8" >
                 </iframe>
             </div>
-          
-
-            
-
         </div>
 
         <script type="text/javascript" src="javascript/script_ide.js"></script> 

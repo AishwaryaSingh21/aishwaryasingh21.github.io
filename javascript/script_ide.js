@@ -19,6 +19,8 @@ function setupEditor()
     </head>
 
     <body>
+    <img src="https://raw.githubusercontent.com/AishwaryaSingh21/aishwaryasingh21.github.io/master/images/type.png" style="width:70%;margin-left:auto;margin-right:auto;display:block;">
+
     </body>
 
     </html>`,1); //1 = moves cursor to end
@@ -44,4 +46,28 @@ function setupEditor()
 
 setupEditor();
 update();
-  
+
+//TOGGLE DIV
+function code()
+{
+  if($("#header-ide").is(":visible"))
+      {
+          $('#output').hide();
+          $('#code').show();
+          $('.cbt').addClass("active");
+          $('.obt').removeClass("active");
+
+          
+      }
+}
+function output()
+{
+  if($("#header-ide").is(":visible"))
+      {
+          $('#output').show();
+          $('#code').hide();
+          $('.obt').addClass("active");
+          $('.cbt').removeClass("active");
+          
+      }
+}
