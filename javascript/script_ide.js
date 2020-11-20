@@ -47,7 +47,7 @@ function setupEditor()
 setupEditor();
 update();
 
-//TOGGLE DIV
+//TOGGLE DIV MOBILE
 function code()
 {
   if($("#header-ide").is(":visible"))
@@ -69,5 +69,33 @@ function output()
           $('.obt').addClass("active");
           $('.cbt').removeClass("active");
           
+      }
+}
+
+//TOGGLE DIV DESKTOP
+function code_desktop()
+{
+  if($("#header").is(":visible"))
+      {
+          $('#output').hide();
+          $('#code').show();
+          $('#code').addClass("col-md-12");
+          $('#code').removeClass("col-md-6");
+
+          $('.obt').addClass("active");
+          $('.cbt').removeClass("active");  
+      }
+}
+function output_desktop()
+{
+  if($("#header").is(":visible"))
+      {
+        $('#output').show();
+        $('#code').hide();
+        $('#output').addClass("col-md-12");
+        $('#output').removeClass("col-md-6");
+
+        $('.obt').addClass("active");
+        $('.cbt').removeClass("active");  
       }
 }
