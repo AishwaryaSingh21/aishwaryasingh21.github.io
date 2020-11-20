@@ -82,8 +82,8 @@ function code_desktop()
           $('#code').addClass("col-md-12");
           $('#code').removeClass("col-md-6");
 
-          $('.obt').addClass("active");
-          $('.cbt').removeClass("active");  
+          $('.cbt').addClass("active");
+          $('.obt').removeClass("active");  
       }
 }
 function output_desktop()
