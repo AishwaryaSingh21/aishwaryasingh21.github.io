@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>CodingSchool</title>
+
+        <!-- Title Icon -->
+        <link rel="icon" href="images/logo.png" type="image/png" />
+
+        <!-- CSS files -->
+        <link rel="stylesheet" media="screen and (min-width: 1001px)" href="css/desktop_ide.css" type="text/css"/>
+        <link rel="stylesheet" media="screen and (max-width: 1000px)" href="css/mobile.css" type="text/css" />
+
+        <!-- Icons -->
+        <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+        
+        <!-- User defined JavaScript -->
+        <!-- <script type="text/javascript" src="javascript/script.js"></script>  -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.2.9/ace.js" ></script>        
+
+    </head>
+
+    <body>
+
+        <!-- HEADER DESKTOP -->
+        <nav class="navbar navbar-expand-md header" id="header">
+            <a class="navbar-brand" href="#" ><img src="images/logo.png" alt=""></a>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav mr-auto"></ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">DOCS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#contact">CONTACT</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="ide.html" style="border-style:solid;border-width: 0.5px">IDE</a>
+                    </li>
+                    
+                </ul> 
+            </div>
+        </nav>
+
+        <!-- IDE -->
+        <div id='container' class="row">
+            <div class="rounded col-md-6">
+                <div class="login-box">
+                        <a href="#">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            CODE
+                        </a>
+                </div>  
+                <div id="editor" class="shadow-style">
+                </div>
+            </div>
+            <div class="rounded col-md-6">
+                <div class="login-box">
+                        <a href="#">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            OUTPUT
+                        </a>
+                </div> 
+                <iframe id='iframe' frameBorder="8" >
+                </iframe>
+            </div>
+          
+
+            
+
+        </div>
+
+        <script type="text/javascript" src="javascript/script_ide.js"></script> 
+
+    </body>
+</html>
