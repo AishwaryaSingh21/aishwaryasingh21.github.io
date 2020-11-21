@@ -53,6 +53,7 @@ $(function() {
             $('#contact').hide();
             $('#features').hide();
             $('#recommend').hide();
+            $('#docs').hide();
             $(".header-icon1").hide();
             $(".header-icon2").show();
         
@@ -70,6 +71,7 @@ function myToggle()
     $('#contact').show();
     $('#features').show();
     $('#recommend').show();
+    $('#docs').show();
 
 
 
@@ -84,6 +86,8 @@ function myFunction() {
     $('#contact').show();
     $('#features').show();
     $('#recommend').show();
+    $('#docs').show();
+
 
 
     $(".header-icon2").hide();
@@ -107,6 +111,8 @@ function myFunction() {
     $("#signup-div").hide();
     $('#features').hide();
     $('#recommend').hide();
+    $('#docs').hide();
+
 
 
     $("#signup #header-signup").hide();
@@ -128,6 +134,8 @@ function signup()
     $("#login-div").hide();
     $('#features').hide();
     $('#recommend').hide();
+    $('#docs').hide();
+
 
     $("#login #header-login").hide();
     

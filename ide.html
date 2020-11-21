@@ -61,7 +61,10 @@
             <a class="" href="index.html" >
                 <img class="" src="images/logo.png">
             </a>
-            <a class="nav-link float-div" href="ide.html" style="border-style:solid;border-width: 0.5px">IDE</a>
+            <a class="nav-link float-div" href="#">
+                <span onclick="docs()" style="font-size: 1.5rem;margin-right: 2rem;;">Docs</span>
+                <span onclick="ide()" style="border-style:solid;border-width: 0.5px;font-size: 1.5rem;padding-left: 0.3rem;padding-right: 0.3rem;">IDE</span>
+            </a>
         </nav>
 
         <br id="box7">
@@ -85,52 +88,251 @@
 
         <!-- IDE -->
         <div id='container' class="row">
-            <div class="col-md-6" id="code">
+            <div class="col-md-6" id="head">
                 <div class="login-box">
-                    <br class="clear"> <br class="clear">
-                    <a href="#" onclick="code()" class="cbt clear" id="box1">
+                    <a href="#" onclick="heade()" class="hbt">
                         <span></span>
                         <span></span>
                         <span></span>
                         <span></span>
-                        CODE
+                        HEAD
                     </a>
-                    <a href="#" onclick="output()" class="obt clear" id="box2">
+                    <a href="#" onclick="htmle()" class="mbt active">
                         <span></span>
                         <span></span>
                         <span></span>
                         <span></span>
-                        OUTPUT
+                        HTML
                     </a>
+                    <a href="#" onclick="csse()" class="cbt">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        CSS
+                    </a>
+                    <div class="line-2" >
+                        <a href="#" onclick="scripte()" class="sbt" style="margin: 0rem!important;">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            SCRIPT
+                        </a>
+                        <a href="#" onclick="output()" class="obt" style="margin: 0rem!important;">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            OUTPUT
+                        </a>
+                    </div>
+                    
                 </div>  
-                <div id="editor" class="shadow-style">
+                <div id="head1" class="shadow-style">
+                </div>
+            </div>
+
+            <div class="col-md-6" id="script">
+                <div class="login-box">
+                    <a href="#" onclick="heade()" class="hbt">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        HEAD
+                    </a>
+                    <a href="#" onclick="htmle()" class="mbt active">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        HTML
+                    </a>
+                    <a href="#" onclick="csse()" class="cbt">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        CSS
+                    </a>
+                    <div class="line-2" >
+                        <a href="#" onclick="scripte()" class="sbt" style="margin: 0rem!important;">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            SCRIPT
+                        </a>
+                        <a href="#" onclick="output()" class="obt" style="margin: 0rem!important;">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            OUTPUT
+                        </a>
+                    </div>
+                    
+                </div>  
+                <div id="script1" class="shadow-style">
+                </div>
+            </div>
+
+            <div class="col-md-6" id="css">
+                <div class="login-box">
+                    <a href="#" onclick="heade()" class="hbt">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        HEAD
+                    </a>
+                    <a href="#" onclick="htmle()" class="mbt active">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        HTML
+                    </a>
+                    <a href="#" onclick="csse()" class="cbt">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        CSS
+                    </a>
+                    <div class="line-2" >
+                        <a href="#" onclick="scripte()" class="sbt" style="margin: 0rem!important;">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            SCRIPT
+                        </a>
+                        <a href="#" onclick="output()" class="obt" style="margin: 0rem!important;">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            OUTPUT
+                        </a>
+                    </div>
+                    
+                </div>  
+                <div id="css1" class="shadow-style">
+                </div>
+            </div>
+
+            <div class="col-md-6" id="html">
+                <div class="login-box">
+                    <a href="#" onclick="heade()" class="hbt">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        HEAD
+                    </a>
+                    <a href="#" onclick="htmle()" class="mbt active">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        HTML
+                    </a>
+                    <a href="#" onclick="csse()" class="cbt">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        CSS
+                    </a>
+                    <div class="line-2" >
+                        <a href="#" onclick="scripte()" class="sbt" style="margin: 0rem!important;">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            SCRIPT
+                        </a>
+                        <a href="#" onclick="output()" class="obt" style="margin: 0rem!important;">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            OUTPUT
+                        </a>
+                    </div>
+                    
+                </div>  
+                <div id="html1" class="shadow-style">
                 </div>
             </div>
 
             <div class="rounded col-md-6" id="output">
                 <div class="login-box">
-                    <br class="clear"> <br class="clear">
-                    <a href="#" onclick="code()" class="cbt clear" id="box3">
+                    <a href="#" onclick="heade()" class="hbt">
                         <span></span>
                         <span></span>
                         <span></span>
                         <span></span>
-                        CODE
+                        HEAD
                     </a>
-                    <a href="#" onclick="output()" class="obt clear" id="box4">
+                    <a href="#" onclick="htmle()" class="mbt active">
                         <span></span>
                         <span></span>
                         <span></span>
                         <span></span>
-                        OUTPUT
+                        HTML
                     </a>
+                    <a href="#" onclick="csse()" class="cbt">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        CSS
+                    </a>
+                    <div class="line-2" >
+                        <a href="#" onclick="scripte()" class="sbt" style="margin: 0rem!important;">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            SCRIPT
+                        </a>
+                        <a href="#" onclick="output()" class="obt" style="margin: 0rem!important;">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            OUTPUT
+                        </a>
+                    </div>
+                    
                 </div> 
                 <iframe id='iframe' frameBorder="8" >
                 </iframe>
             </div>
         </div>
 
+        <!-- DOCS -->
+        <br><br>
+        <!-- DOCS -->
+        <div class="docs container" id="docs">
+            <h1 style="font-size: 48px;">Points to note</h1><br>
+
+            <ul class="list-group ">
+                <li class="list-group-item shadow-style">The coding space is divided into 5 main parts...</li>
+                <li class="list-group-item shadow-style">Head block which can be used to insert meta data like external files,titles etc...</li>
+                <li class="list-group-item shadow-style">Script block which can be used to insert external JavaScript code...</li>
+                <li class="list-group-item shadow-style">Html block which can be used to insert the contents of the body tag...</li>
+                <li class="list-group-item shadow-style">Css block which can be used to insert external css code...</li>
+                <li class="list-group-item shadow-style">The active block is always highlighted...</li>
+                <li class="list-group-item shadow-style">To view the output click on Output button...</li>
+              </ul>
+        </div>
+
         <script type="text/javascript" src="javascript/script_ide.js"></script> 
+        
 
     </body>
 </html>
