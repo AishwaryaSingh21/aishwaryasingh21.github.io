@@ -557,13 +557,21 @@ footer .icons
 }
 .recommend-details
 {
-  padding-top:4rem;
+  padding-top:2rem;
   padding-left:1rem;
   padding-right:1rem;
-  padding-bottom: 1rem;
   background: rgba(0,0,0,.5);
   box-sizing: border-box;
   box-shadow: 0 15px 25px rgba(0,0,0,.6);
-
 }
+#r-text1 { font-size: 1.4rem!important; }
+#r-text2 { font-size: 1.4rem!important; }
+#r-text3 { font-size: 1.4rem!important; }
+
+
+.recommend-details h2
+{
+  font-size: 1.9rem!important;
+}
+
 
